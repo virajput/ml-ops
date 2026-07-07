@@ -102,4 +102,4 @@ minikube service heart-disease-api-service --url   # prints a local tunnel URL
    artifacts.
 3. **docker-build-and-smoke-test** — builds the image and verifies `/health` and `/predict`
    respond before the pipeline is considered green.
-# ml-ops
+
