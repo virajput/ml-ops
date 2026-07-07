@@ -1,0 +1,30 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+.coverage
+coverage.xml
+
+mlruns/
+mlartifacts/
+*.log
+
+.DS_Store
+.ipynb_checkpoints/
+
+# Keep processed/raw data small sample tracked, but ignore large caches
+data/raw/*.tmp
+
+# Local k8s / secrets
+kubeconfig
+*.pem
+
+# Course reference material (not part of the submission source)
+docs/

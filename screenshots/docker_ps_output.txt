@@ -1,0 +1,4 @@
+CONTAINER ID   IMAGE                      COMMAND                  CREATED              STATUS                        PORTS                                         NAMES
+b99c3b0011cf   heart-disease-api:latest   "uvicorn api.main:ap…"   About a minute ago   Up About a minute (healthy)   0.0.0.0:8090->8000/tcp, [::]:8090->8000/tcp   heart-disease-test
+IMAGE                      ID             DISK USAGE   CONTENT SIZE   EXTRA
+heart-disease-api:latest   b8ae40024ec2        944MB             0B   U    
